@@ -4,7 +4,7 @@ Title: Dynamic Allocation
 Version: 0.1.0
 Author: Katie Liu
 Maintainer: Katie Liu <yourself@somewhere.net>
-Description: Provides imbalance scores devtools::test()for each possible treatment group as a new subject enters the study given previous subjects' factor profiles. The treatment allocation probability for each group is also calculatived and a final group allocation is returned. 
+Description: Provides imbalance scores for each possible treatment group as a new subject enters the study given previous subjects' factor profiles. The treatment allocation probability for each group is also calculated and a final group allocation is returned. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
