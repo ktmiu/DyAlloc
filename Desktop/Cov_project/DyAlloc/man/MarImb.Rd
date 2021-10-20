@@ -2,15 +2,22 @@
 % Please edit documentation in R/DyAlloc.R
 \name{MarImb}
 \alias{MarImb}
-\title{Creates a marginal imbalance score for each treatment arm of N treatment groups}
+\title{Creates a marginal imbalance score for each treatment arm of N treatment groups.
+This is a low level function to be used in subsequent functions and will most
+likely not be used directly by a practitioner.}
 \usage{
 MarImb(df, N)
 }
 \arguments{
-\item{df}{data frame}
+\item{df}{data frame. The profiles of existing subjects in the study.}
 
-\item{N}{numeric variable}
+\item{N}{numeric variable. The number of treatment arms in the study.}
+}
+\value{
+A vector of marginal imbalance scores for each treatment arm is produced (a total of N scores)
 }
 \description{
-Creates a marginal imbalance score for each treatment arm of N treatment groups
+Creates a marginal imbalance score for each treatment arm of N treatment groups.
+This is a low level function to be used in subsequent functions and will most
+likely not be used directly by a practitioner.
 }

@@ -3,8 +3,8 @@ Type: Package
 Title: Dynamic Allocation 
 Version: 0.1.0
 Author: Katie Liu
-Maintainer: Katie Liu <yourself@somewhere.net>
-Description: Provides imbalance scores for each possible treatment group as a new subject enters the study given previous subjects' factor profiles. The treatment allocation probability for each group is also calculated and a final group allocation is returned. 
+Maintainer: Katie Liu <kliu229@emory.edu>
+Description: Provides imbalance scores for each possible treatment group as a new subject enters the clinical trial study by Dynamic Allocation. The treatment allocation probability for each group is calculated and a final group allocation is returned. This package supports three Dynamic Allocation procedures and a final function that wraps all the functions into one. This Dynamic Allocation scheme is an unbalance minimization method proposed by Lebowitsch et al.(2012) <doi: 10.1002/sim.5418>.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
