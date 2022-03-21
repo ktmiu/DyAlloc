@@ -1,2 +1,0 @@
-"0","fit6 <- lm(log(Rate.per.100000 )~  pov_C + nodip_C + uninsured_C + vacant_housing_C, data = dat)"
-"0","plot(fit6)"
