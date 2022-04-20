@@ -1,2 +1,0 @@
-"0",""
-"0","plot(x1,y1, xlab=""Tumor Size"", ylab=""Malignant (binary)"",ylim=c(0,1),xlim=c(0,35),yaxt=""n"")"
